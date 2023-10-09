@@ -1,0 +1,38 @@
+.root_Header {
+    align-items: center;
+    display: flex;
+    height: 80px;
+    position: absolute;;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-around;
+}
+
+.list_Header {
+    display: flex;
+    list-style: none;
+}
+
+.element_Header {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.element_Header_first {
+    padding: 0 15px 0 0;
+}
+
+.element_Header_last {
+    padding: 0 0 0 15px;
+}
+
+.linkPhone_Header {
+    color: #ebc181;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}

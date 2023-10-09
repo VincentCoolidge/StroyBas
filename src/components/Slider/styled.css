@@ -1,0 +1,123 @@
+.custom-swiper .swiper-pagination-bullet {
+    background: white;
+    padding: 5px;
+  }
+
+  .custom-swiper,
+.swiper-button-next,
+ .swiper-button-prev  {
+    color: white;
+}
+
+.root_Slider {
+    position: relative;
+    margin: 0 auto;
+    height: 700px;
+}
+
+.slide_1_element {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    &:before {
+        content: '';
+        position: absolute;
+        background-size: cover;
+        height: 700px;
+        background-position: center;
+        filter: brightness(65%);
+        width: 100%;
+        background-image: url('../../assets/slider/slide_1.png');
+      }
+}
+
+.slide_2_element {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    &:before {
+        content: '';
+        position: absolute;
+        background-size: cover;
+        height: 700px;
+        background-position: center;
+        filter: brightness(65%);
+        width: 100%;
+        background-image: url('../../assets/slider/slide_2.png');
+      }
+}
+
+.slide_3_element {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    &:before {
+        content: '';
+        position: absolute;
+        background-size: cover;
+        height: 700px;
+        background-position: center;
+        filter: brightness(65%);
+        width: 100%;
+        background-image: url('../../assets/slider/slide_3.png');
+      }
+}
+
+.container_Slide {
+    position: relative;
+    top: 0;
+    white-space: pre-wrap;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.box_Slide {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1320px;
+}
+
+.box_Slide_title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.23;
+    margin-bottom: 47px;
+}
+
+.box_Slide_Subtitle {
+    font-weight: 500;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.param_box_Slider {
+    display: flex;
+    position: relative;
+    gap: 20px;
+}
+
+.param_element_Slider {
+    display: flex;
+    flex-direction: column;
+    width: 84px;
+    gap: 5px;
+}
+
+.param_text_Slider {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.param-img_Slider {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+}
