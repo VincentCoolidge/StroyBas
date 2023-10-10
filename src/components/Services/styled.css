@@ -1,0 +1,98 @@
+.root_Services {
+    display: flex;
+    width: 100%;
+}
+
+.container_Services {
+    width: 1320px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.subTitle_Services {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #ebc181;;
+}
+
+.title_Services {
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 40px;
+    margin-top: 24px;
+    text-transform: uppercase;
+}
+
+.list_Services {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.list_item1_Services,
+.list_item2_Services,
+.list_item3_Services,
+.list_item4_Services,
+.list_item5_Services,
+.list_item6_Services {
+    position: relative;
+    min-height: 205px;
+    width: 416px;
+    border-radius: 20px;
+    
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index:1;
+        display:block;
+        height:100%;
+        width:100%;
+        filter: brightness(55%);
+        background:url('../../assets/project/1_project.png') no-repeat;
+        background-position:0;
+        background-size: cover;
+        -webkit-transition:all 1s ease;
+        -moz-transition:all 1s ease;
+        -o-transition:all 1s ease;
+        transition:all 1s ease;
+        border-radius: 20px;
+    }
+}
+
+.list_item1_Services:hover:before,
+.list_item2_Services:hover:before,
+.list_item3_Services:hover:before,
+.list_item4_Services:hover:before,
+.list_item5_Services:hover:before,
+.list_item6_Services:hover:before {
+    background-position:top;
+    filter: brightness(85%);
+  }
+  
+
+.list_title_Services {
+    color: #FFFFFF;
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 20px;
+    margin-left: 30px;
+    margin-top: auto;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 5;
+    height: 100%;
+    align-items: end;
+}

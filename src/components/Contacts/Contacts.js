@@ -1,6 +1,10 @@
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 import "./styled.css";
 
+import email from "../../assets/contacts/email.png";
+import location from "../../assets/contacts/location.png";
+import phone from "../../assets/contacts/phone.png";
+
 const Contacts = () => {
   return (
     <div className="root_Contacts">
@@ -19,7 +23,7 @@ const Contacts = () => {
                 height="100%"
                 defaultState={{
                   center: [44.899862, 37.330381],
-                  zoom: 18,
+                  zoom: 19,
                   controls: ["zoomControl", "fullscreenControl"],
                 }}
               >
@@ -35,7 +39,30 @@ const Contacts = () => {
           </YMaps>
         </div>
         <div className="box_Contacts">
-          <p>Контакты</p>
+          <p className="title_Contacts">Контакты</p>
+          <div className={"block_flex_Contacts"}>
+            <img className={"img_phone_Contacts"} src={phone} />
+            <div className={"box_phone_Contacts"}>
+              <div className={"title_phone_Contacts"}>Горячая линия</div>
+              <div className={"subTitle_phone_Contacts"}>+7(918)69-99-833</div>
+            </div>
+          </div>
+          <div className={"block_flex_Contacts"}>
+            <img className={"img_location_Contacts"} src={location} />
+            <div className={"box_location_Contacts"}>
+              <div className={"title_location_Contacts"}>Центральный офис</div>
+              <div className={"subTitle_location_Contacts"}>
+                г.Анапа, ул.Крымская, дом 244, 3 этаж
+              </div>
+            </div>
+          </div>
+          <div className={"block_flex_Contacts"}>
+            <img className={"img_email_Contacts"} src={email} />
+            <div className={"box_email_Contacts"}>
+              <div className={"title_email_Contacts"}>По все вопросам</div>
+              <div className={"subTitle_email_Contacts"}>an.ProAnapu@ya.ru</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

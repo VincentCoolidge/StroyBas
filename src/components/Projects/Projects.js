@@ -44,12 +44,25 @@ const Projects = () => (
         </div>
       </div>
     </div>
-    <div className={"projects_box_Projects"}>
-      {/* <p
-        className={classNames("principles_left_box_subTitle_Projects", {}, [])}
-      >
-        #Принципы
-      </p> */}
+    <div className="projects_box_Projects">
+      <p className="principles_left_box_subTitle_Projects">#Проекты</p>
+      <div className="projects_container_box_Projects">
+        <div className="projects_element1_box_Projects">
+          <h3 className="projects_element1_title_box_Projects">Одноэтажные</h3>
+          <div className="projects_element1_line_box_Projects" />
+          <div className="projects_element1_background_box_Projects"></div>
+        </div>
+        <div className="projects_element2_box_Projects">
+          <h3 className="projects_element2_title_box_Projects">Мансардные</h3>
+          <div className="projects_element2_line_box_Projects" />
+          <div className="projects_element2_background_box_Projects"></div>
+        </div>
+        <div className="projects_element3_box_Projects">
+          <h3 className="projects_element3_title_box_Projects">Двухэтажные</h3>
+          <div className="projects_element3_line_box_Projects" />
+          <div className="projects_element3_background_box_Projects"></div>
+        </div>
+      </div>
     </div>
   </div>
 );

@@ -1,0 +1,44 @@
+.root_Team {
+    display: flex;
+    width: 100%;
+    background-color: #F4F4F4;
+    /* padding: 135px 0 65px; */
+}
+
+.container_Team {
+    display: flex;
+    flex-direction: column;
+    max-width: 1320px;
+    width: 100%;
+    padding: 50px 0 65px;
+    margin: 0 auto;
+}
+
+.first_box_subTitle_Team {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #ebc181;
+}
+
+.first_box_Title_Team {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.first_box_img_Team {
+    height: 650px;
+}
+
+.first_box_Team {
+    display: flex;
+    justify-content: space-between;
+}
