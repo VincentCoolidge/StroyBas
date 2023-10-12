@@ -7,7 +7,7 @@ const Header = () => {
       <ul className={"list_Header"}>
         <li className={"element_logo_Header"}>
           <img className="logo_header" src={Logo} />
-          <h1 className="logo_title_header">Проектирование и строительство домов под ключ.</h1>
+          <h1 className="logo_title_header">Проектирование и строительство домов под ключ</h1>
         </li>
         <li className={"element_Header"}>Проекты</li>
         <li className={"element_Header"}>Услуги</li>
