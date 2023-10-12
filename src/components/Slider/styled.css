@@ -63,6 +63,24 @@
       }
 }
 
+.slide_4_element {
+    position: relative;
+    height: 700px;
+    width: 100%;
+    &:before {
+        content: '';
+        position: absolute;
+        background-size: cover;
+        height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: brightness(65%);
+        width: 100%;
+        background-image: url('../../assets/slider/slide_4.png');
+      }
+}
+
+
 .container_Slide {
     position: relative;
     top: 0;

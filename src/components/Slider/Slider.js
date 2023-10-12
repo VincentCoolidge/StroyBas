@@ -97,6 +97,30 @@ const Slider = () => {
             </div>
           </div>
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="slide_4_element">
+            <div className="box_Slide">
+              <p className="box_Slide_title">
+                Проект: <br />
+                СКАНДИНАВИЯ
+              </p>
+              <div className={"param_box_Slider"}>
+                <div className={"param_element_Slider"}>
+                  <p className={"param_text_Slider"}>{"172 кв.м"}</p>
+                  <img className={"param-img_Slider"} src={IconM1} />
+                </div>
+                <div className={"param_element_Slider"}>
+                  <p className={"param_text_Slider"}>{"2 С/У"}</p>
+                  <img className={"param-img_Slider"} src={IconM2} />
+                </div>
+                <div className={"param_element_Slider"}>
+                  <p className={"param_text_Slider"}>{"4 шт."}</p>
+                  <img className={"param-img_Slider"} src={IconM3} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

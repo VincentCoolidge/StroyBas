@@ -26,13 +26,10 @@ const Services = () => {
             <p className="list_title_Services">Отделка</p>
           </div>
           <div className="list_item5_Services">
-            <p className="list_title_Services">Меблирование</p>
+            <p className="list_title_Services">Мебелирование</p>
           </div>
           <div className="list_item6_Services">
-            <p className="list_title_Services">
-              Система <br />
-              Умный Дома
-            </p>
+            <p className="list_title_Services">Инженерные коммуникации</p>
           </div>
         </div>
       </div>
