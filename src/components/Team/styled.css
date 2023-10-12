@@ -42,3 +42,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+.video_team {
+    width: 100%;
+    height: 350px;
+}
