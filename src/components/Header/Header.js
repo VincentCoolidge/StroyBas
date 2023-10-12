@@ -1,5 +1,5 @@
 import "./styled.css";
-import Logo from "../../assets/header/logo.PNG";
+import Logo from "../../assets/header/logo.png";
 
 const Header = () => {
   return (
