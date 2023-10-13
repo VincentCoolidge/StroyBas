@@ -1,0 +1,90 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal_active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal_content {
+     background-color: white;
+     padding: 40px 50px;
+     position: relative;
+}
+
+.modal_circle {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.modal_button {
+    box-shadow: 5px 8px 37px rgba(28,53,42,0.22);
+    background-color: #ac7f39;
+    height: 47px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    text-transform: uppercase;
+    outline: 0;
+    letter-spacing: .96px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.modal_title {
+    color: #000;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.modal_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input_modal {
+    outline: 0;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    box-sizing: border-box;
+    width: 450px;
+    height: 46px;
+    background-color: #f3f5f9;
+    line-height: 15px;
+    padding: 0 18px;
+    border: none;
+    margin: 20px 0;
+}
+
+.modal_error_msg {
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    color: #dc3232;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.modal_box_input {
+    position: relative;
+}
