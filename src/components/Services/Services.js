@@ -2,7 +2,7 @@ import "./styled.css";
 
 const Services = () => {
   return (
-    <div className="root_Services">
+    <div id="services" className="root_Services">
       <div className="container_Services">
         <div className="subTitle_Services">#услуги</div>
         <h2 className="title_Services">Комплекс услуг</h2>

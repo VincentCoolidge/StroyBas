@@ -8,16 +8,15 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./styled.css";
 
-import IconM1 from "../../assets/slider/icon-m1.png";
-import IconM2 from "../../assets/slider/icon-m2.png";
-import IconM3 from "../../assets/slider/icon-m3.png";
+import IconM1 from "../../assets/slider/icon-m1.webp";
+import IconM2 from "../../assets/slider/icon-m2.webp";
+import IconM3 from "../../assets/slider/icon-m3.webp";
 
 import { Parallax, Pagination, Navigation } from "swiper/modules";
 
 const Slider = () => {
   return (
     <div className="root_Slider">
-      <Header />
       <Swiper
         slidesPerView={1}
         pagination={{

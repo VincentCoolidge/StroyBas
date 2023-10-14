@@ -18,7 +18,7 @@ const SocialNetworks = () => {
         </a>
       </li>
       <li>
-        <a href="https://t.me/nik_renat" target="_blank">
+        <a href="https://t.me/nick" target="_blank">
           <img className="img_SocialNetworks" src={TIcon} />
         </a>
       </li>

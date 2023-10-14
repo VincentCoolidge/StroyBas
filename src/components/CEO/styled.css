@@ -2,28 +2,28 @@
     position: relative;
     height: 700px;
     width: 100%;
-
-    &:before {
-        content: '';
-        position: absolute;
-        background-size: cover;
-        height: 700px;
-        background-position: center;
-        filter: brightness(40%);
-        width: 100%;
-        background-image: url('../../assets/ceo/background.png');
-      }
-
+/* 
       &:after {
         content: '';
         position: absolute;
         background-position: center;
-        background-image: url('../../assets/ceo/ceo.png');
+        background-image: url('../../assets/ceo/ceo.webp');
         background-repeat: no-repeat;
         background-position: bottom 0.5px right 20px;
         width: 100%;
         height: 100%;
-      }
+      } */
+}
+
+.root_CEO::before {
+  content: '';
+  position: absolute;
+  background-size: cover;
+  height: 700px;
+  background-position: center;
+  filter: brightness(40%);
+  width: 100%;
+  background-image: url('../../assets/ceo/background.webp');
 }
 
 .container_CEO {
@@ -41,6 +41,20 @@
     max-width: 1320px;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.box_CEO::before {
+  content: '';
+  position: absolute;
+  background-position: center;
+  background-image: url('../../assets/ceo/ceo.webp');
+  background-repeat: no-repeat;
+  background-position: bottom 0.5px right 20px;
+  width: 100%;
+  height: 100%;
+  right: -250px;
+  top: 0px;
 }
 
 .column_title_box_CEO {
@@ -102,7 +116,7 @@
     height: 200px;
     background-position: center;
     width: 200px;
-    background-image: url('../../assets/ceo/signature.png');
+    background-image: url('../../assets/ceo/signature.webp');
     right: -30px;
     top: 20px;
   }

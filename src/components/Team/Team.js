@@ -1,9 +1,9 @@
 import "./styled.css";
-import TeamPng from "../../assets/team/team.png";
+import TeamPng from "../../assets/team/team.webp";
 
 const Team = () => {
   return (
-    <div className="root_Team">
+    <div id="about_us" className="root_Team">
       <div className="container_Team">
         <div className="first_box_Team">
           <div>

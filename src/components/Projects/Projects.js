@@ -1,7 +1,7 @@
 import "./styled.css";
 
 const Projects = () => (
-  <div className={"root_Projects"}>
+  <div id="projects" className={"root_Projects"}>
     <div className={"principles_boxs_Projects"}>
       <div className={"principles_left_box__Projects"}>
         <p className={"principles_left_box_subTitle_Projects"}>#Принципы</p>

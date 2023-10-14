@@ -7,7 +7,7 @@ import phone from "../../assets/contacts/phone.png";
 
 const Contacts = () => {
   return (
-    <div className="root_Contacts">
+    <div id="contacts" className="root_Contacts">
       <div className="boxs_Contacts">
         <div className="box_Contacts">
           <YMaps

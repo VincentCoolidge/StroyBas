@@ -1,10 +1,10 @@
 import "./styled.css";
-import OurWork1 from "../../assets/our-works/our-work_1.png";
-import OurWork2 from "../../assets/our-works/our-work_2.png";
-import OurWork3 from "../../assets/our-works/our_work_3.png";
-import OurWork4 from "../../assets/our-works/our_work_4.png";
-import OurWork5 from "../../assets/our-works/our_work_5.png";
-import OurWork6 from "../../assets/our-works/our_work_6.png";
+import OurWork1 from "../../assets/our-works/our-work_1.webp";
+import OurWork2 from "../../assets/our-works/our-work_2.webp";
+import OurWork3 from "../../assets/our-works/our_work_3.webp";
+import OurWork4 from "../../assets/our-works/our_work_4.webp";
+import OurWork5 from "../../assets/our-works/our_work_5.webp";
+import OurWork6 from "../../assets/our-works/our_work_6.webp";
 
 import PdfOurWork1 from "../../assets/pdf_our-works/1_file.pdf";
 import PdfOurWork2 from "../../assets/pdf_our-works/2_file.pdf";
@@ -27,7 +27,7 @@ const OurWorks = () => {
   };
 
   return (
-    <div className="root_ourWorks">
+    <div id="our_works" className="root_ourWorks">
       <div className="container_ourWorks">
         <div className="title_ourWorks">#наши работы</div>
         <p className={"sub_title_ourWorks"}>ВЫПОЛНЕНАЯ РАБОТА</p>

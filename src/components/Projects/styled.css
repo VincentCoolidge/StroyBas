@@ -122,7 +122,7 @@
         display:block;
         height:100%;
         width:100%;
-        background:url('../../assets/project/1_project.png') no-repeat;
+        background:url('../../assets/project/1_project.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;
@@ -148,7 +148,7 @@
         display:block;
         height:100%;
         width:100%;
-        background:url('../../assets/project/2_project.png') no-repeat;
+        background:url('../../assets/project/2_project.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;
@@ -174,7 +174,7 @@
         display:block;
         height:100%;
         width:100%;
-        background:url('../../assets/project/3_project.png') no-repeat;
+        background:url('../../assets/project/3_project.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;

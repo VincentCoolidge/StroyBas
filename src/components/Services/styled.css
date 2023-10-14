@@ -60,7 +60,7 @@
         height:100%;
         width:100%;
         filter: brightness(55%);
-        background:url('../../assets/services/4_services.png') no-repeat;
+        background:url('../../assets/services/4_services.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;
@@ -82,7 +82,7 @@
         height:100%;
         width:100%;
         filter: brightness(55%);
-        background:url('../../assets/services/3_services.png') no-repeat;
+        background:url('../../assets/services/3_services.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;
@@ -104,7 +104,7 @@
         height:100%;
         width:100%;
         filter: brightness(55%);
-        background:url('../../assets/services/2_services.png') no-repeat;
+        background:url('../../assets/services/2_services.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;
@@ -126,7 +126,7 @@
         height:100%;
         width:100%;
         filter: brightness(55%);
-        background:url('../../assets/services/1_services.png') no-repeat;
+        background:url('../../assets/services/1_services.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;
@@ -148,7 +148,7 @@
         height:100%;
         width:100%;
         filter: brightness(55%);
-        background:url('../../assets/services/5_services.png') no-repeat;
+        background:url('../../assets/services/5_services.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;
@@ -170,7 +170,7 @@
         height:100%;
         width:100%;
         filter: brightness(55%);
-        background:url('../../assets/services/6_services.png') no-repeat;
+        background:url('../../assets/services/6_services.webp') no-repeat;
         background-position:0;
         background-size: cover;
         -webkit-transition:all 1s ease;
@@ -181,11 +181,31 @@
     }
 }
 
-.list_item1_Services:hover:before,
-.list_item2_Services:hover:before,
-.list_item3_Services:hover:before,
-.list_item4_Services:hover:before,
-.list_item5_Services:hover:before,
+.list_item1_Services:hover:before {
+    background-position: center; 
+    filter: brightness(85%);
+}
+
+.list_item2_Services:hover:before {
+    background-position: center; 
+    filter: brightness(85%);
+}
+
+.list_item3_Services:hover:before {
+    background-position: top 10px;
+    filter: brightness(85%);
+}
+
+.list_item4_Services:hover:before {
+    background-position:center;
+    filter: brightness(85%);
+}
+
+.list_item5_Services:hover:before {
+    background-position:center;
+    filter: brightness(85%);
+}
+
 .list_item6_Services:hover:before {
     background-position:top;
     filter: brightness(85%);
