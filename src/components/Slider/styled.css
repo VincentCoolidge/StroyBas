@@ -27,7 +27,7 @@
         background-position: center;
         filter: brightness(65%);
         width: 100%;
-        background-image: url('../../assets/slider/slide_1.png');
+        background-image: url('../../assets/slider/slide_1.webp');
       }
 }
 
@@ -43,7 +43,7 @@
         background-position: center;
         filter: brightness(65%);
         width: 100%;
-        background-image: url('../../assets/slider/slide_2.png');
+        background-image: url('../../assets/slider/slide_1.webp');
       }
 }
 
@@ -59,7 +59,7 @@
         background-position: center;
         filter: brightness(65%);
         width: 100%;
-        background-image: url('../../assets/slider/slide_3.png');
+        background-image: url('../../assets/slider/slide_1.webp');
       }
 }
 
@@ -76,7 +76,7 @@
         background-repeat: no-repeat;
         filter: brightness(65%);
         width: 100%;
-        background-image: url('../../assets/slider/slide_4.png');
+        background-image: url('../../assets/slider/slide_1.webp');
       }
 }
 
