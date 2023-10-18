@@ -34,7 +34,7 @@
 
 .list_item_ourWorks {
    width: calc((100% - 50px)/3);
-   height: 450px;
+   height: 500px;
 }
 
 .list_ourWorks {
@@ -78,6 +78,7 @@
 .list_item_left_price_ourWorks {
     line-height: 1.2;
     font-size: 14px;
+    align-self: center;
     font-weight: 600;
 }
 

@@ -20,7 +20,7 @@ const OurWorks = () => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = 'pdf_house';
+        alink.download = "pdf_house";
         alink.click();
       });
     });
@@ -47,6 +47,14 @@ const OurWorks = () => {
                   <span className="list_item_right_2_price_ourWorks">руб</span>
                 </div>
               </div>
+              <div className="list_item_box_price_ourWorks">
+                <div className="list_item_left_price_ourWorks">
+                  Дата постройки
+                </div>
+                <div>
+                  <b className="list_item_right_1_price_ourWorks">13.09.2023</b>
+                </div>
+              </div>
               <button
                 onClick={() => onButtonClick(PdfOurWork1)}
                 className="list_item_download-documents_ourWorks"
@@ -69,6 +77,14 @@ const OurWorks = () => {
                 <div>
                   <b className="list_item_right_1_price_ourWorks">9787000</b>{" "}
                   <span className="list_item_right_2_price_ourWorks">руб</span>
+                </div>
+              </div>
+              <div className="list_item_box_price_ourWorks">
+                <div className="list_item_left_price_ourWorks">
+                  Дата постройки
+                </div>
+                <div>
+                  <b className="list_item_right_1_price_ourWorks">28.10.2022</b>
                 </div>
               </div>
               <button
@@ -94,6 +110,14 @@ const OurWorks = () => {
                   <span className="list_item_right_2_price_ourWorks">руб</span>
                 </div>
               </div>
+              <div className="list_item_box_price_ourWorks">
+                <div className="list_item_left_price_ourWorks">
+                  Дата постройки
+                </div>
+                <div>
+                  <b className="list_item_right_1_price_ourWorks">02.11.2022</b>
+                </div>
+              </div>
               <button
                 onClick={() => onButtonClick(PdfOurWork3)}
                 className="list_item_download-documents_ourWorks"
@@ -115,6 +139,14 @@ const OurWorks = () => {
                 <div>
                   <b className="list_item_right_1_price_ourWorks">6977000</b>{" "}
                   <span className="list_item_right_2_price_ourWorks">руб</span>
+                </div>
+              </div>
+              <div className="list_item_box_price_ourWorks">
+                <div className="list_item_left_price_ourWorks">
+                  Дата постройки
+                </div>
+                <div>
+                  <b className="list_item_right_1_price_ourWorks">11.11.2022</b>
                 </div>
               </div>
               <button
@@ -140,6 +172,14 @@ const OurWorks = () => {
                   <span className="list_item_right_2_price_ourWorks">руб</span>
                 </div>
               </div>
+              <div className="list_item_box_price_ourWorks">
+                <div className="list_item_left_price_ourWorks">
+                  Дата постройки
+                </div>
+                <div>
+                  <b className="list_item_right_1_price_ourWorks">03.03.2023</b>
+                </div>
+              </div>
               <button
                 onClick={() => onButtonClick(PdfOurWork5)}
                 className="list_item_download-documents_ourWorks"
@@ -161,6 +201,14 @@ const OurWorks = () => {
                 <div className="list_item_right_price_ourWorks">
                   <b className="list_item_right_1_price_ourWorks">4690000</b>{" "}
                   <span className="list_item_right_2_price_ourWorks">руб</span>
+                </div>
+              </div>
+              <div className="list_item_box_price_ourWorks">
+                <div className="list_item_left_price_ourWorks">
+                  Дата постройки
+                </div>
+                <div>
+                  <b className="list_item_right_1_price_ourWorks">17.03.2023</b>
                 </div>
               </div>
               <button
