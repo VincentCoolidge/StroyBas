@@ -4,6 +4,7 @@ import "./styled.css";
 import email from "../../assets/contacts/email.png";
 import location from "../../assets/contacts/location.png";
 import phone from "../../assets/contacts/phone.png";
+import documents from "../../assets/contacts/documents.png";
 
 const Contacts = () => {
   return (
@@ -61,6 +62,17 @@ const Contacts = () => {
             <div className={"box_email_Contacts"}>
               <div className={"title_email_Contacts"}>По все вопросам</div>
               <div className={"subTitle_email_Contacts"}>an.ProAnapu@ya.ru</div>
+            </div>
+          </div>
+          <div className={"block_flex_Contacts block_flex_Contacts_documents"}>
+            <img className={"img_documents_Contacts"} src={documents} />
+            <div className={"box_documents_Contacts"}>
+              <div className={"title_documents_Contacts"}>Документы</div>
+              <div className={"subTitle_documents_Contacts"}>
+                ИП Назмеев Ренат Ирекович; <br />
+                ИНН 233710241804; <br />
+                ОГРНИП 318237500471194 <br /> от 24.12.2018 года;
+              </div>
             </div>
           </div>
         </div>
