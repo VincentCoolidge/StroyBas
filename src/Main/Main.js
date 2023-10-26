@@ -13,13 +13,13 @@ const Main = () => {
   return (
     <>
       <Header />
-      <Slider />
-      <Projects />
+      {/* <Slider /> */}
+      {/* <Projects />
       <Team />
       <Services />
       <CEO />
       <OurWorks />
-      <Contacts />
+      <Contacts /> */}
     </>
   );
 };
