@@ -1,31 +1,63 @@
 .root_Header {
-    align-items: center;
-    display: flex;
-    height: 100px;
-    position: absolute;;
-    top: 10px;
-    width: 100%;
-    z-index: 10;
-    justify-content: space-between;
-    padding: 0 40px;
+  align-items: center;
+  display: flex;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  z-index: 10;
+  justify-content: space-between;
+  padding: 0 40px;
 
-    @media (max-width: 1024px) { 
-        background-color: blue;
-        top: 0;
-        padding: 0 25px 0 10px;
-        height: 80px;
-    }
+  @media (max-width: 1024px) {
+    top: 0;
+    padding: 0 25px 0 10px;
+  }
 }
 
 .container_Header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
     display: flex;
-    color: white;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: 10;
+  }
 }
 
+.container_Header_active {
+  left: 0;
+}
+
+/* .container_Header_active ul {
+  display: flex;
+  flex-direction: column;
+} */
+
 .list_Header {
-    display: flex;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.list_Header_active {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts_Header {
+  display: flex;
 }
 
 /* .list_Header_active {
@@ -33,96 +65,107 @@
 } */
 
 .element_logo_Header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo_header {
-    width: 150px;
-    height: 195px;
+  width: 150px;
+  height: 195px;
 
-    @media (max-width: 1024px) { 
-        width:90px;
-        height: 120px;
-        margin-left: 0px;
-    }
+  @media (max-width: 1024px) {
+    width: 90px;
+    height: 120px;
+    margin-left: 0px;
+  }
 }
 
 .logo_title_header {
-    font-size: 12px;
-    color: #fff;
-    font-weight: 400;
-    max-width: 145px;
-    padding-left: 22px;
-    line-height: 1.3;
-    opacity: 0.4;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  max-width: 145px;
+  padding-left: 22px;
+  line-height: 1.3;
+  opacity: 0.4;
 
-    @media (max-width: 1024px) { 
-        display: none;
-    }
+  @media (max-width: 1024px) {
+    display: none;
+  }
 }
 
 .element_Header {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding: 0 15px; 
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 15px;
 
-    @media (max-width: 1024px) { 
-        font-size: 14px;
-        padding: 0 10px; 
-    }
+  @media (max-width: 1024px) {
+    font-size: 14px;
+    padding: 0 10px;
+  }
 }
 
 .element_Header_last {
-    padding: 0 0 0 15px;
+  padding: 0 0 0 15px;
+}
+
+.element_socials_Header {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
 }
 
 .linkPhone_Header {
-    color: white;
-    font-size: 28px;
-    font-weight: 700;
-    text-decoration: none;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
 
-    @media (max-width: 1024px) { 
-        font-size: 18px;
-    }
+  @media (max-width: 1024px) {
+    font-size: 18px;
+  }
 }
 
 .link_Header {
-    text-decoration: none;
+  text-decoration: none;
+  color: white;
 
-    @media (max-width: 768px) { 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: fixed;
-        left: -100%;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100vh;
-        background-color: #f8f8f8;
-        z-index: 10;
-        transition: left 1s;
-    }
-}
-
-.list_Header_active {
-    left: 0;
+  /* @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: -100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f8f8;
+    z-index: 10;
+    transition: left 1s;
+  } */
 }
 
 .burger_menu {
-    display: none;
+  display: none;
 
-    @media (max-width: 768px) { 
-        display: block;
-        position: absolute;
-        right: 10px;
-        top: 27px;
-        cursor: pointer;
-        z-index: 10;
-    }
+  @media (max-width: 768px) {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 27px;
+    cursor: pointer;
+    z-index: 10;
+  }
+}
+
+.icon_header_burger {
+  color: white;
 }

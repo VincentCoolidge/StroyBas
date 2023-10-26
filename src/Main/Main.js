@@ -13,7 +13,7 @@ const Main = () => {
   return (
     <>
       <Header />
-      {/* <Slider /> */}
+      <Slider />
       {/* <Projects />
       <Team />
       <Services />

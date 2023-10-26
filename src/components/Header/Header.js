@@ -1,6 +1,7 @@
 import "./styled.css";
 import SocialNetworks from "../SocialNetworks";
 import Logo from "../../assets/header/logo.webp";
+import { IconContext } from "react-icons";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
@@ -9,7 +10,19 @@ const Header = () => {
 
   return (
     <header className="root_Header">
-      <div className="container_Header">
+      <div>
+        <img className="logo_header" src={Logo} />
+        <h1 className="logo_title_header">
+          Проектирование и строительство домов под ключ
+        </h1>
+      </div>
+      <div
+        className={
+          showBurger
+            ? ["container_Header", "container_Header_active"].join(" ")
+            : ["container_Header"]
+        }
+      >
         <ul
           className={
             showBurger
@@ -17,12 +30,12 @@ const Header = () => {
               : ["list_Header"]
           }
         >
-          <li className={"element_logo_Header"}>
+          {/* <li className={"element_logo_Header"}>
             <img className="logo_header" src={Logo} />
             <h1 className="logo_title_header">
               Проектирование и строительство домов под ключ
             </h1>
-          </li>
+          </li> */}
           <li className={"element_Header"}>
             <a className="link_Header" href="#projects">
               Проекты
@@ -49,20 +62,20 @@ const Header = () => {
             </a>
           </li>
         </ul>
-        <div>
+        <div className={"element_socials_Header"}>
           <a className={"linkPhone_Header"} href="callto:89186999833">
             +7(918)69-99-833
           </a>
           <SocialNetworks />
         </div>
       </div>
-      {/* <div onClick={() => setShowBurger(!showBurger)} className="burger_menu">
+      <div onClick={() => setShowBurger(!showBurger)} className="burger_menu">
         {showBurger ? (
-          <AiOutlineClose size={25} />
+          <AiOutlineClose className="icon_header_burger" size={25} />
         ) : (
-          <AiOutlineMenu size={25} />
+          <AiOutlineMenu className="icon_header_burger" size={25} />
         )}
-      </div> */}
+      </div>
     </header>
   );
 };
