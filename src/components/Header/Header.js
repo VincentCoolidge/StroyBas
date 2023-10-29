@@ -56,11 +56,11 @@ const Header = () => {
               О нас
             </a>
           </li>
-          <li className={"element_Header element_Header_last"}>
+          {/* <li className={"element_Header"}>
             <a className="link_Header" href="#contacts">
               Контакты
             </a>
-          </li>
+          </li> */}
         </ul>
         <div className={"element_socials_Header"}>
           <a className={"linkPhone_Header"} href="callto:89186999833">

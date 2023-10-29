@@ -14,12 +14,12 @@ const Main = () => {
     <>
       <Header />
       <Slider />
-      {/* <Projects />
+      <Projects />
       <Team />
-      <Services />
-      <CEO />
-      <OurWorks />
-      <Contacts /> */}
+      {/* <Services /> */}
+      {/* <CEO /> */}
+      {/* <OurWorks /> */}
+      {/* <Contacts /> */}
     </>
   );
 };
