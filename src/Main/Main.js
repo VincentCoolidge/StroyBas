@@ -16,10 +16,10 @@ const Main = () => {
       <Slider />
       <Projects />
       <Team />
-      {/* <Services /> */}
-      {/* <CEO /> */}
-      {/* <OurWorks /> */}
-      {/* <Contacts /> */}
+      <Services />
+      <CEO />
+      <OurWorks />
+      <Contacts />
     </>
   );
 };
