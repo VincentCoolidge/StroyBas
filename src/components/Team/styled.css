@@ -13,8 +13,12 @@
   padding: 50px 0 65px;
   margin: 0 auto;
 
-  @media (max-width: 359px) {
+  @media (max-width: 479px) {
     padding: 20px 20px 20px;
+
+    @media (max-width: 359px) {
+      padding: 20px 20px 20px;
+    }
   }
 }
 
