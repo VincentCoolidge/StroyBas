@@ -17,6 +17,7 @@
 
   @media (max-width: 359px) {
     flex-direction: column;
+    gap: 25px;
   }
 }
 
