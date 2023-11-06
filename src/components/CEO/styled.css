@@ -1,79 +1,79 @@
 .root_CEO {
-    position: relative;
-    height: 700px;
-    width: 100%;
-}
-
-.root_CEO::before {
-  content: '';
-  position: absolute;
-  background-size: cover;
+  position: relative;
   height: 700px;
-  background-position: center;
-  filter: brightness(40%);
   width: 100%;
-  background-image: url('../../assets/ceo/background.webp');
+
+  &:before {
+    content: "";
+    position: absolute;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    filter: brightness(40%);
+    width: 100%;
+    background-image: url("../../assets/ceo/background.webp");
+  }
 }
 
 .container_CEO {
-    display: flex;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    padding-top: 80px;
-    justify-content: center;
+  display: flex;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-top: 80px;
+  justify-content: center;
 }
 
 .box_CEO {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1320px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.box_CEO::before {
-  content: '';
-  position: absolute;
-  background-position: center;
-  background-image: url('../../assets/ceo/ceo.webp');
-  background-repeat: no-repeat;
-  background-position: bottom 0.5px right 20px;
   width: 100%;
-  height: 100%;
-  right: -250px;
-  top: 0px;
+  margin: 0 auto;
+  max-width: 1320px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    background-position: center;
+    background-image: url("../../assets/ceo/ceo.webp");
+    background-repeat: no-repeat;
+    background-position: bottom 0.5px center;
+    width: 500px;
+    height: 100%;
+    right: -60px;
+    top: 0px;
+  }
 }
 
 .column_title_box_CEO {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 1;
-    text-transform: uppercase;
-    color: #fff;
-    margin-top: 15px;
-    margin-bottom: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 
 .sub-title_box_CEO {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 1.2;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: #fff;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .column_info_subTitle_CEO_box_CEO {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.4;
-    text-align: right;
-    color: #FFFFFF;
-    opacity: 0.5;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.5;
 }
 
 .column_info_title_CEO_box_CEO {
@@ -81,7 +81,7 @@
   font-size: 26px;
   line-height: 1.4;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0;
 }
 
@@ -99,26 +99,132 @@
   position: relative;
 
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     background-size: cover;
     height: 200px;
     background-position: center;
     width: 200px;
-    background-image: url('../../assets/ceo/signature.webp');
+    background-image: url("../../assets/ceo/signature.webp");
     right: -30px;
     top: 20px;
   }
-
 }
 
 .description_text_box_CEO {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.4;
   padding-bottom: 55px;
   padding-top: 30px;
-  border-top: 1px solid #EFEFEF;
+  border-top: 1px solid #efefef;
+}
+
+@media screen and (max-width: 1467px) {
+  .box_CEO {
+    max-width: 968px;
+
+    &:before {
+      right: 0px;
+    }
+  }
+
+  .description_box_CEO {
+    &:before {
+      height: 200px;
+      width: 200px;
+      right: 0;
+      left: -20px;
+      top: 55px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .box_CEO {
+    width: 728px;
+
+    &:before {
+      height: 100%;
+      right: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .box_CEO {
+    width: 600px;
+
+    &:before {
+      height: 100%;
+      right: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .root_CEO {
+    height: 400px;
+
+    &:before {
+      height: 400px;
+    }
+  }
+
+  .container_CEO {
+    padding: 20px 20px 0;
+  }
+
+  .box_CEO {
+    &:before {
+      background-position: right;
+      background-size: cover;
+      width: 300px;
+      height: 200px;
+      top: 180px;
+      right: 0;
+    }
+  }
+
+  .column_title_box_CEO {
+    font-size: 16px;
+  }
+
+  .sub-title_box_CEO {
+    font-size: 16px;
+  }
+
+  .column_info_subTitle_CEO_box_CEO {
+    font-size: 12px;
+  }
+
+  .column_info_title_CEO_box_CEO {
+    font-size: 18px;
+  }
+
+  .description_box_CEO {
+    margin-top: 10px;
+
+    &:before {
+      right: 0;
+      left: -20px;
+      top: 40px;
+      height: 150px;
+      width: 150px;
+    }
+  }
+
+  .description_text_box_CEO {
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}
+
+@media screen and (max-width: 359px) {
 }
