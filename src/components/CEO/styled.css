@@ -38,10 +38,10 @@
     background-position: center;
     background-image: url("../../assets/ceo/ceo.webp");
     background-repeat: no-repeat;
-    background-position: bottom 0.5px right 20px;
-    width: 100%;
+    background-position: bottom 0.5px center;
+    width: 500px;
     height: 100%;
-    right: -250px;
+    right: -60px;
     top: 0px;
   }
 }
@@ -122,7 +122,49 @@
   border-top: 1px solid #efefef;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 1467px) {
+  .box_CEO {
+    max-width: 968px;
+
+    &:before {
+      right: 0px;
+    }
+  }
+
+  .description_box_CEO {
+    &:before {
+      height: 200px;
+      width: 200px;
+      right: 0;
+      left: -20px;
+      top: 55px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .box_CEO {
+    width: 728px;
+
+    &:before {
+      height: 100%;
+      right: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .box_CEO {
+    width: 600px;
+
+    &:before {
+      height: 100%;
+      right: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 639px) {
   .root_CEO {
     height: 400px;
 
@@ -142,7 +184,7 @@
       width: 300px;
       height: 200px;
       top: 180px;
-      left: 0;
+      right: 0;
     }
   }
 
@@ -181,61 +223,8 @@
   }
 }
 
+@media screen and (max-width: 479px) {
+}
+
 @media screen and (max-width: 359px) {
-  /* .root_CEO {
-    height: 400px;
-
-    &:before {
-      height: 400px;
-    }
-  }
-
-  .container_CEO {
-    padding: 20px 20px 0;
-  }
-
-  .box_CEO {
-    &:before {
-      background-position: right;
-      background-size: cover;
-      width: 300px;
-      height: 200px;
-      top: 180px;
-      left: 0;
-    }
-  }
-
-  .column_title_box_CEO {
-    font-size: 16px;
-  }
-
-  .sub-title_box_CEO {
-    font-size: 16px;
-  }
-
-  .column_info_subTitle_CEO_box_CEO {
-    font-size: 12px;
-  }
-
-  .column_info_title_CEO_box_CEO {
-    font-size: 18px;
-  }
-
-  .description_box_CEO {
-    margin-top: 10px;
-
-    &:before {
-      right: 0;
-      left: -20px;
-      top: 40px;
-      height: 150px;
-      width: 150px;
-    }
-  }
-
-  .description_text_box_CEO {
-    font-size: 14px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-  } */
 }

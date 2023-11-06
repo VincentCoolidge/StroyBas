@@ -4,16 +4,6 @@
   justify-content: center;
   gap: 20px;
   padding: 10px 0;
-
-  @media (max-width: 1024px) {
-    gap: 10px;
-    padding: 5px 0 0;
-
-    @media (max-width: 768px) {
-      gap: 15px;
-      padding: 10px 0 0;
-    }
-  }
 }
 
 .element_SocialNetworks {
@@ -25,9 +15,35 @@
 .img_SocialNetworks {
   width: 40px;
   height: 40px;
+}
 
-  @media (max-width: 1024px) {
+@media screen and (max-width: 1467px) {
+  .list_SocialNetworks {
+    gap: 15px;
+    padding: 5px 0 0;
+  }
+
+  .img_SocialNetworks {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .list_SocialNetworks {
+    gap: 10px;
+    padding: 5px 0 0;
+  }
+
+  .img_SocialNetworks {
     width: 25px;
     height: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .list_SocialNetworks {
+    gap: 15px;
+    padding: 10px 0 0;
   }
 }

@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="root_Header">
-      <div>
+      <div className={"element_logo_Header"}>
         <img className="logo_header" src={Logo} />
         <h1 className="logo_title_header">
           Проектирование и строительство домов под ключ
@@ -30,12 +30,6 @@ const Header = () => {
               : ["list_Header"]
           }
         >
-          {/* <li className={"element_logo_Header"}>
-            <img className="logo_header" src={Logo} />
-            <h1 className="logo_title_header">
-              Проектирование и строительство домов под ключ
-            </h1>
-          </li> */}
           <li className={"element_Header"}>
             <a className="link_Header" href="#projects">
               Проекты
@@ -56,11 +50,11 @@ const Header = () => {
               О нас
             </a>
           </li>
-          {/* <li className={"element_Header"}>
+          <li className={"element_Header"}>
             <a className="link_Header" href="#contacts">
               Контакты
             </a>
-          </li> */}
+          </li>
         </ul>
         <div className={"element_socials_Header"}>
           <a className={"linkPhone_Header"} href="callto:89186999833">
