@@ -102,7 +102,7 @@ const Projects = () => {
                   onClick={() => onButtonClick(Project11)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
               <div className="list_item_column_projects">
@@ -115,7 +115,7 @@ const Projects = () => {
                   onClick={() => onButtonClick(Project12)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
               <div className="list_item_column_projects">
@@ -128,7 +128,7 @@ const Projects = () => {
                   onClick={() => onButtonClick(Project13)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
             </div>
@@ -147,7 +147,7 @@ const Projects = () => {
                   onClick={() => onButtonClick(Project31)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
               <div className="list_item_column_projects">
@@ -160,7 +160,7 @@ const Projects = () => {
                   onClick={() => onButtonClick(Project32)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
               <div className="list_item_column_projects">
@@ -173,7 +173,7 @@ const Projects = () => {
                   // onClick={() => onButtonClick(Project33)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
             </div>
@@ -193,7 +193,7 @@ const Projects = () => {
                   onClick={() => onButtonClick(Project21)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
               <div className="list_item_column_projects">
@@ -206,7 +206,7 @@ const Projects = () => {
                   onClick={() => onButtonClick(Project22)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
               <div className="list_item_column_projects">
@@ -219,7 +219,7 @@ const Projects = () => {
                   // onClick={() => onButtonClick(Project23)}
                   className="list_item_download-documents_projects"
                 >
-                  Скачать документы
+                  Скачать проект
                 </button>
               </div>
             </div>

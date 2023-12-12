@@ -59,7 +59,7 @@ const OurWorks = () => {
                 onClick={() => onButtonClick(PdfOurWork1)}
                 className="list_item_download-documents_ourWorks"
               >
-                Скачать документы
+                Скачать документ
               </button>
             </div>
           </li>
@@ -91,7 +91,7 @@ const OurWorks = () => {
                 onClick={() => onButtonClick(PdfOurWork2)}
                 className="list_item_download-documents_ourWorks"
               >
-                Скачать документы
+                Скачать документ
               </button>
             </div>
           </li>
@@ -122,7 +122,7 @@ const OurWorks = () => {
                 onClick={() => onButtonClick(PdfOurWork3)}
                 className="list_item_download-documents_ourWorks"
               >
-                Скачать документы
+                Скачать документ
               </button>
             </div>
           </li>
@@ -153,7 +153,7 @@ const OurWorks = () => {
                 onClick={() => onButtonClick(PdfOurWork4)}
                 className="list_item_download-documents_ourWorks"
               >
-                Скачать документы
+                Скачать документ
               </button>
             </div>
           </li>
@@ -184,7 +184,7 @@ const OurWorks = () => {
                 onClick={() => onButtonClick(PdfOurWork5)}
                 className="list_item_download-documents_ourWorks"
               >
-                Скачать документы
+                Скачать документ
               </button>
             </div>
           </li>
@@ -215,7 +215,7 @@ const OurWorks = () => {
                 onClick={() => onButtonClick(PdfOurWork6)}
                 className="list_item_download-documents_ourWorks"
               >
-                Скачать документы
+                Скачать документ
               </button>
             </div>
           </li>
