@@ -95,7 +95,7 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects" src={Img11} />
                 <div className="list_item_title_projects">
-                  1 этаж, Площадь застройки 96,3 кв.м., Площадь здания 75,23
+                  1 этаж, площадь застройки 96,3 кв.м., площадь здания 75,23
                   кв.м., 3 спальни
                 </div>
                 <button
@@ -108,7 +108,7 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects_contain" src={Img12} />
                 <div className="list_item_title_projects">
-                  1 этаж, Площадь застройки 124 кв.м., Площадь здания 82,8
+                  1 этаж, площадь застройки 124 кв.м., площадь здания 82,8
                   кв.м., 3 спальни, 2 с/у, терраса
                 </div>
                 <button
@@ -121,7 +121,7 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects" src={Img13} />
                 <div className="list_item_title_projects">
-                  1 этаж, Площадь застройки 156,8 кв.м., Площадь здания 110
+                  1 этаж, площадь застройки 156,8 кв.м., площадь здания 110
                   кв.м., 4 спальни, 2 с/у, терраса
                 </div>
                 <button
@@ -139,8 +139,8 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects" src={Img31} />
                 <div className="list_item_title_projects">
-                  Мансардный, Площадь застройки 77 кв.м., Площадь здания 49
-                  кв.м., 2 спальни. Подходит для участков с фасадом от 13
+                  мансардный, площадь застройки 77 кв.м., площадь здания 49
+                  кв.м., 2 спальни, подходит для участков с фасадом от 13
                   метров!
                 </div>
                 <button
@@ -153,8 +153,8 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects" src={Img32} />
                 <div className="list_item_title_projects">
-                  Мансардный, Площадь застройки 107,2 кв.м., Площадь здания 70
-                  кв.м., 2 спальни+гостевая комната, терраса
+                  мансардный, площадь застройки 107,2 кв.м., площадь здания 70
+                  кв.м., 2 спальни, гостевая комната, терраса
                 </div>
                 <button
                   onClick={() => onButtonClick(Project32)}
@@ -166,11 +166,11 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects" src={Img33} />
                 <div className="list_item_title_projects">
-                  Мансардный, Площадь застройки 107,2 кв.м., Площадь здания 70
-                  кв.м., 2 спальни+гостевая комната, терраса
+                  мансардный, площадь застройки 107,2 кв.м., площадь здания 70
+                  кв.м., 2 спальни, гостевая комната, терраса
                 </div>
                 <button
-                  // onClick={() => onButtonClick(Project33)}
+                  onClick={() => onButtonClick(Project33)}
                   className="list_item_download-documents_projects"
                 >
                   Скачать проект
@@ -186,7 +186,7 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects" src={Img21} />
                 <div className="list_item_title_projects">
-                  2 этажа, Площадь застройки 127 кв.м., Площадь здания 163,6
+                  2 этажа, площадь застройки 127 кв.м., площадь здания 163,6
                   кв.м., 4 спальни, кабинет, 2 с/у, терраса
                 </div>
                 <button
@@ -199,7 +199,7 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects" src={Img22} />
                 <div className="list_item_title_projects">
-                  2 этажа, Площадь застройки 98,7 кв.м., Площадь здания 129
+                  2 этажа, площадь застройки 98,7 кв.м., площадь здания 129
                   кв.м., 3 спальни, кабинет, 2 с/у, терраса
                 </div>
                 <button
@@ -212,11 +212,11 @@ const Projects = () => {
               <div className="list_item_column_projects">
                 <img className="list_item_img_projects" src={Img23} />
                 <div className="list_item_title_projects">
-                  2 этажа, Площадь застройки 98,7 кв.м., Площадь здания 129
-                  кв.м., 3 спальни, кабинет, 2 с/у, терраса
+                  2 этажа, площадь застройки 127 кв.м., площадь здания 180
+                  кв.м., 4 спальни, 3 с/у, и террасы
                 </div>
                 <button
-                  // onClick={() => onButtonClick(Project23)}
+                  onClick={() => onButtonClick(Project23)}
                   className="list_item_download-documents_projects"
                 >
                   Скачать проект
