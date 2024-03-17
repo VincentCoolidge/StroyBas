@@ -105,7 +105,7 @@
 .projects_container_box_Projects {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 .projects-flex-list {
@@ -142,10 +142,9 @@
 }
 
 .list_item_title_projects {
-  font-size: 20px;
+  font-size: 18px;
   color: #282828;
   font-weight: 700;
-  padding: 0 20px;
 }
 
 .list_item_download-documents_projects {

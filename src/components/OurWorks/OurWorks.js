@@ -26,6 +26,8 @@ const OurWorks = () => {
     });
   };
 
+  console.log("PdfOurWork1", PdfOurWork1);
+
   return (
     <div id="our_works" className="root_ourWorks">
       <div className="container_ourWorks">
