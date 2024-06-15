@@ -5,6 +5,7 @@ import email from "../../assets/contacts/email.png";
 import location from "../../assets/contacts/location.png";
 import phone from "../../assets/contacts/phone.png";
 import documents from "../../assets/contacts/documents.png";
+import organization from "../../assets/contacts/organization.png";
 
 const Contacts = () => {
   return (
@@ -72,6 +73,23 @@ const Contacts = () => {
                 ИП Назмеев Ренат Ирекович; <br />
                 ИНН 233710241804; <br />
                 ОГРНИП 318237500471194 <br /> от 24.12.2018 года;
+              </div>
+            </div>
+          </div>
+          <div className={"block_flex_Contacts block_flex_Contacts_documents"}>
+            <img className={"img_documents_Contacts"} src={organization} />
+            <div className={"box_documents_Contacts"}>
+              <div className={"title_documents_Contacts"}>Организация</div>
+              <div className={"subTitle_documents_Contacts"}>
+                Общество с ограниченной ответственностью «Стройбас»; <br />
+                ИНН/КПП 2301112706/230101001; <br />
+                ОГРН 1242300019103 <br /> от 05.04.2024 года;
+                <br />
+                Юридический адрес: Краснодарский край, МО Анапа, ул. Крымская
+                216а.;
+                <br />
+                Тел. <a href="callto:89186999833">+79186999833</a>,{" "}
+                <a href="mailto:uk.panorama@mail.ru">uk.panorama@mail.ru</a>
               </div>
             </div>
           </div>

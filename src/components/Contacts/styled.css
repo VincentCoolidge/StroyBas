@@ -1,84 +1,88 @@
 .root_Contacts {
-    display: flex;
-    width: 100%;
-    padding: 135px 0 65px;
+  display: flex;
+  width: 100%;
+  padding: 135px 0 65px;
 }
 
 .boxs_Contacts {
-    display: flex;
-    flex-direction: row;
-    width: 1320px;
-    justify-content: space-between;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 1320px;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 40px;
+
+  & div:nth-child(2) {
+    width: 730px;
+  }
 }
 
 .box_Contacts {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .container_Map {
-    width: 700px;
-    height: 600px;
+  width: 700px;
+  height: 600px;
 }
 
 .title_Contacts {
-    color: rgba(0,0,0,0.3);
-    font-size: 66px;
-    line-height: 66px;
-    font-weight: 300;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 66px;
+  line-height: 66px;
+  font-weight: 300;
 }
 
 .block_flex_Contacts {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-top: 58px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 58px;
 }
 
 .block_flex_Contacts_documents {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .img_phone_Contacts,
 .img_location_Contacts,
 .img_email_Contacts {
-    width: 34px;
-    height: 34px;
+  width: 34px;
+  height: 34px;
 }
 
 .img_documents_Contacts {
-    width: 34px;
-    height: 34px;
-    margin-top: 7px;
+  width: 34px;
+  height: 34px;
+  margin-top: 7px;
 }
 
 align-items: center;
 .title_phone_Contacts,
 .title_location_Contacts,
 .title_email_Contacts,
-.title_documents_Contacts
- {
-    color: rgba(0,0,0,0.6);
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 13px;
-    letter-spacing: .05px;
-    margin-bottom: 10px;
+.title_documents_Contacts {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0.05px;
+  margin-bottom: 10px;
 }
 
 .subTitle_phone_Contacts,
 .subTitle_location_Contacts,
 .subTitle_email_Contacts {
-    color: #000;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 24px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
 }
 
 .subTitle_documents_Contacts {
-    color: #000;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 34px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
 }
